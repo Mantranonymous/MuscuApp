@@ -1,0 +1,20 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+.build/
+.swiftpm/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# macOS
+.DS_Store
+
+# Secrets
+.env
+*.key
+*.pem
